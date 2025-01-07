@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(51, 51, 51); /* Dark gray */
+}
+ 
+ h1 {
+        text-align: center;
+        color:blue;
+        font-size:40px;
+        font-family: 'Tahoma';
+
+    }
+h2 {
+    text-align: center;
+    color:red;
+    font-size:35px;
+    font-family: 'Tahoma';
+
+}
+
+p {
+    text-align: center;
+    color:rgb(180, 180, 180);
+    font-size:29px;
+    font-family: 'Tahoma';
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+    margin: 0; 
+
+
+button {
+    text-align: center;
+    color: rgb(255, 255, 255); 
+    font-size: 35px;
+    font-family: 'Tahoma';
+    background-color: rgb(74, 74, 74); 
+    border: none; 
+    border-radius: 15px;
+    padding: 20px 40px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: rgb(159, 159, 159); 
+} /* Replace 'lightblue' with your desired color */
+
+}
